@@ -103,6 +103,20 @@ Gruppo dedicato allo studio e alla pratica di eXtreme Programming (XP) e dei pro
 
 ---
 
+### 🐍 PyZena — Python User Group Genova
+
+Community Python di Genova, riconosciuta tra i gruppi locali di PyCon Italia. Un punto di ritrovo per sviluppatori, data scientist e appassionati del linguaggio Python e del suo vasto ecosistema.
+
+| Risorsa | Link |
+|---------|------|
+| 📸 Instagram | [@_pyzena](https://www.instagram.com/_pyzena/) |
+| 🌐 PyCon Italia | [pycon.it](https://pycon.it) |
+| 🌐 Python Italia | [python.it](https://www.python.it) |
+
+**Attività:** Meetup su Python e framework · Workshop su data science e AI · Talk su Django, Flask e FastAPI · Networking e community events
+
+---
+
 ## 🚀 Perché Partecipare
 
 - **Networking** — Incontra professionisti, studenti e appassionati del settore IT
