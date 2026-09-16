@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Groups Genova — La community tech della Superba</title>
+    <meta name="description" content="Scopri i principali User Group tecnologici di Genova: JUG Genova, GDG Genova, Gendroid, AWS User Group Genova e DotNet Liguria. Unisciti alla community tech genovese.">
+    <meta name="keywords" content="user group genova, JUG Genova, GDG Genova, Gendroid, AWS Genova, DotNet Liguria, community tech, sviluppatori, programmatori, Genova">
+    <meta property="og:title" content="User Groups Genova — La community tech della Superba">
+    <meta property="og:description" content="Il punto di riferimento per informatici, professionisti e studenti a Genova. Trova il tuo User Group e partecipa agli eventi.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-3" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">&#9670;</span>
+                <span>UG<span class="logo-accent">Genova</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#groups">Gruppi</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#join">Partecipa</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Apri menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#groups">Gruppi</a></li>
+            <li><a href="#about">Chi Siamo</a></li>
+            <li><a href="#join">Partecipa</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Community attive a Genova
+            </div>
+            <h1 class="hero-title">
+                User Groups<br>
+                <span class="gradient-text">Genova</span>
+            </h1>
+            <p class="hero-subtitle">
+                Il punto di riferimento per sviluppatori, professionisti IT e studenti. 
+                Scopri le community tecnologiche della Superba, partecipa agli eventi 
+                e fai crescere le tue competenze.
+            </p>
+            <div class="hero-actions">
+                <a href="#groups" class="btn btn-primary">
+                    Esplora i Gruppi
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+                <a href="#join" class="btn btn-ghost">Come Partecipare</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">User Groups</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Opportunità</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Gratuiti</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+            <div class="code-window">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="code-title">genova_tech.py</span>
+                </div>
+                <pre class="code-body"><code><span class="kw">class</span> <span class="cls">GenovaTech</span>:
+    <span class="kw">def</span> <span class="fn">__init__</span>(self):
+        self.city = <span class="str">"Genova"</span>
+        self.groups = [
+            <span class="str">"JUG Genova"</span>,
+            <span class="str">"GDG Genova"</span>,
+            <span class="str">"Gendroid"</span>,
+            <span class="str">"AWS UG Genova"</span>,
+            <span class="str">"DotNet Liguria"</span>,
+            <span class="str">"LUG Genova"</span>,
+            <span class="str">"XPUG Genova"</span>,
+        ]
+    
+    <span class="kw">def</span> <span class="fn">join</span>(self):
+        <span class="kw">return</span> <span class="str">"Welcome! 🚀"</span></code></pre>
+            </div>
+        </div>
+    </header>
+
+    <!-- Groups Section -->
+    <section class="section groups-section" id="groups">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Community</span>
+                <h2 class="section-title">I Gruppi di <span class="gradient-text">Genova</span></h2>
+                <p class="section-subtitle">
+                    Cinque community attive con focus su tecnologie diverse. 
+                    Ognuna con la propria identità, unite dalla passione per il codice.
+                </p>
+            </div>
+
+            <div class="groups-grid">
+
+                <!-- JUG Genova -->
+                <article class="group-card" id="jug-genova">
+                    <div class="card-glow card-glow-java"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-java">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="28" font-weight="bold" fill="currentColor">☕</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge java-badge">Java</span>
+                            <span class="tech-badge">JVM</span>
+                            <span class="tech-badge">Kotlin</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">JUG Genova</h3>
+                    <p class="card-fullname">Java User Group Genova</p>
+                    <p class="card-description">
+                        Gruppo di appassionati di Java e linguaggi JVM che si riunisce regolarmente 
+                        per condividere esperienze, conoscenze e competenze. Aperto a professionisti e studenti.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Incontri con presentazioni su Java e JVM</li>
+                            <li>Gruppo di discussione online</li>
+                            <li>Corsi e workshop</li>
+                            <li>Eventi sociali e networking</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://juggenova.it" target="_blank" rel="noopener noreferrer" class="card-link" title="Sito Web JUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>juggenova.it</span>
+                        </a>
+                        <a href="https://github.com/jug-genova" target="_blank" rel="noopener noreferrer" class="card-link" title="GitHub JUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.93.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.82.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/jug-genova" target="_blank" rel="noopener noreferrer" class="card-link" title="LinkedIn JUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/></svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://t.me/juggenova" target="_blank" rel="noopener noreferrer" class="card-link" title="Telegram JUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 0C5.37 0 0 5.37 0 12s5.37 12 11.99 12S24 18.63 24 12 18.61 0 11.99 0zm5.9 8.17s-.34 3.55-.48 4.7c-.06.48-.17.65-.28.67-.24.04-.42-.16-.65-.31-.37-.25-2.02-1.3-2.35-1.53-.09-.06-.2-.14-.07-.29.03-.04 1.95-1.84 2.24-2.15.04-.04.07-.11-.03-.16-.1-.05-.21-.01-.3.02-.13.05-2.18 1.38-3.08 1.95-.29.18-.56.27-.8.26-.26-.01-.77-.15-1.15-.27-.46-.15-.83-.23-.8-.49.02-.14.2-.28.54-.42 2.12-.92 3.53-1.53 4.24-1.83 2.02-.85 2.44-1 2.71-1 .06 0 .2.01.29.09.07.06.09.15.1.21-.01.06-.01.13-.02.19z"/></svg>
+                            <span>Telegram</span>
+                        </a>
+                    </div>
+                    <a href="https://juggenova.it" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Unisciti al JUG Genova
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- GDG Genova -->
+                <article class="group-card" id="gdg-genova">
+                    <div class="card-glow card-glow-google"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-google">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="26" font-weight="bold" fill="currentColor">G</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge google-badge">Google</span>
+                            <span class="tech-badge">Android</span>
+                            <span class="tech-badge">Cloud</span>
+                            <span class="tech-badge">Flutter</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">GDG Genova</h3>
+                    <p class="card-fullname">Google Developer Group Genova</p>
+                    <p class="card-description">
+                        Community ufficiale per sviluppatori, tech lead, CTO e designer legata 
+                        all'ecosistema Google. Organizza regolarmente eventi, workshop e attività 
+                        di networking sulla tecnologia Google.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>DevFest e eventi Google</li>
+                            <li>Workshop su Android, Cloud e AI</li>
+                            <li>Talk tecnici e demo</li>
+                            <li>Networking e community meetups</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://gdg.community.dev/gdg-genova/" target="_blank" rel="noopener noreferrer" class="card-link" title="Sito Web GDG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>gdg.community.dev</span>
+                        </a>
+                        <a href="https://t.me/gdggenova" target="_blank" rel="noopener noreferrer" class="card-link" title="Telegram GDG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 0C5.37 0 0 5.37 0 12s5.37 12 11.99 12S24 18.63 24 12 18.61 0 11.99 0zm5.9 8.17s-.34 3.55-.48 4.7c-.06.48-.17.65-.28.67-.24.04-.42-.16-.65-.31-.37-.25-2.02-1.3-2.35-1.53-.09-.06-.2-.14-.07-.29.03-.04 1.95-1.84 2.24-2.15.04-.04.07-.11-.03-.16-.1-.05-.21-.01-.3.02-.13.05-2.18 1.38-3.08 1.95-.29.18-.56.27-.8.26-.26-.01-.77-.15-1.15-.27-.46-.15-.83-.23-.8-.49.02-.14.2-.28.54-.42 2.12-.92 3.53-1.53 4.24-1.83 2.02-.85 2.44-1 2.71-1 .06 0 .2.01.29.09.07.06.09.15.1.21-.01.06-.01.13-.02.19z"/></svg>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://linktr.ee/gdggenova" target="_blank" rel="noopener noreferrer" class="card-link" title="Linktree GDG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7.95 13.48l-3.81 3.81 2.1 2.1 3.81-3.81h5.65v-3.16h-5.65l3.81-3.81-2.1-2.1-3.81 3.81-3.81-3.81-2.1 2.1 3.81 3.81H.19v3.16h5.65l-3.81 3.81 2.1 2.1 3.81-3.81v5.65h3.16v-5.65l3.81 3.81 2.1-2.1-3.81-3.81h5.65v-3.16h-5.65z"/></svg>
+                            <span>Linktree</span>
+                        </a>
+                        <a href="https://www.instagram.com/gdggenova/" target="_blank" rel="noopener noreferrer" class="card-link" title="Instagram GDG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.97.25 2.44.41.61.24 1.05.52 1.51.98.46.46.74.9.98 1.51.17.47.36 1.27.41 2.44.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.97-.41 2.44-.24.61-.52 1.05-.98 1.51-.46.46-.9.74-1.51.98-.47.17-1.27.36-2.44.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.25-2.44-.41-.61-.24-1.05-.52-1.51-.98-.46-.46-.74-.9-.98-1.51-.17-.47-.36-1.27-.41-2.44C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.97.41-2.44.24-.61.52-1.05.98-1.51.46-.46.9-.74 1.51-.98.47-.17 1.27-.36 2.44-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.78.3-1.44.71-2.1 1.37C1.38 2.66.97 3.32.67 4.1.37 4.86.17 5.74.11 7.01.05 8.29.04 8.7.04 11.96s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.78.71 1.44 1.37 2.1.66.66 1.32 1.07 2.1 1.37.76.3 1.64.5 2.91.56C8.33 23.91 8.74 23.92 12 23.92s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.78-.3 1.44-.71 2.1-1.37.66-.66 1.07-1.32 1.37-2.1.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.78-.71-1.44-1.37-2.1-.66-.66-1.32-1.07-2.1-1.37-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                    <a href="https://gdg.community.dev/gdg-genova/" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Unisciti al GDG Genova
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- Gendroid -->
+                <article class="group-card" id="gendroid">
+                    <div class="card-glow card-glow-android"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-android">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="26" font-weight="bold" fill="currentColor">🤖</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge android-badge">Android</span>
+                            <span class="tech-badge">Kotlin</span>
+                            <span class="tech-badge">Mobile</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Gendroid</h3>
+                    <p class="card-fullname">Genova Android Developers</p>
+                    <p class="card-description">
+                        Community dedicata allo sviluppo Android a Genova. Un gruppo di appassionati 
+                        dello sviluppo mobile che condividono conoscenze su Android, Kotlin, Jetpack 
+                        Compose e le ultime novità del mondo mobile.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Meetup sullo sviluppo Android</li>
+                            <li>Workshop su Kotlin e Compose</li>
+                            <li>Condivisione best practices mobile</li>
+                            <li>Networking tra sviluppatori</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://androiddev.social/@gendroid" target="_blank" rel="noopener noreferrer" class="card-link" title="Mastodon Gendroid">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21.33 19.24c-.33 1.72-2.98 3.6-6.03 3.96-1.59.19-3.15.36-4.82.29-2.73-.12-4.88-.63-4.88-.63v.72c.36 2.65 2.66 2.81 4.85 2.89 2.2.07 4.16-.54 4.16-.54l.09 1.99s-1.54.83-4.28.98c-1.51.08-3.39-.04-5.58-.64C1.2 27.1.07 23.09 0 19.01c-.02-1.18-.04-2.29-.04-3.22 0-4.07 2.67-5.26 2.67-5.26 1.34-.62 3.64-.88 6.04-.9h.06c2.4.02 4.7.28 6.04.9 0 0 2.67 1.19 2.67 5.26 0 0 .03 3 .37 5.12l-.48.33zM18 12.28c0-1.1-.27-1.97-.82-2.62-.57-.65-1.31-.98-2.23-.98-1.06 0-1.87.41-2.4 1.22l-.52.87-.52-.87c-.53-.81-1.34-1.22-2.4-1.22-.92 0-1.66.33-2.23.98-.55.65-.82 1.52-.82 2.62v5.38h2.13v-5.22c0-1.1.46-1.66 1.39-1.66.97 0 1.52.66 1.52 1.97v2.86h2.12v-2.86c0-1.31.55-1.97 1.52-1.97.93 0 1.39.56 1.39 1.66v5.22H18v-5.38z"/></svg>
+                            <span>AndroidDev.social</span>
+                        </a>
+                    </div>
+                    <a href="https://gdg.community.dev/gdg-genova/" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Scopri Gendroid
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- AWS User Group Genova -->
+                <article class="group-card" id="aws-genova">
+                    <div class="card-glow card-glow-aws"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-aws">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="26" font-weight="bold" fill="currentColor">☁️</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge aws-badge">AWS</span>
+                            <span class="tech-badge">Cloud</span>
+                            <span class="tech-badge">AI/ML</span>
+                            <span class="tech-badge">IoT</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">AWS User Group Genova</h3>
+                    <p class="card-fullname">Amazon Web Services User Group Genova</p>
+                    <p class="card-description">
+                        Community che riunisce utilizzatori di servizi cloud AWS nella zona di Genova e Liguria. 
+                        Scambio di idee, best practice e approfondimenti su intelligenza artificiale, 
+                        machine learning, IoT e architetture cloud.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Meetup su servizi AWS</li>
+                            <li>Workshop su Cloud Architecture</li>
+                            <li>Deep dive su AI/ML e IoT</li>
+                            <li>Condivisione best practices</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://www.meetup.com/it-IT/aws-user-group-genova/" target="_blank" rel="noopener noreferrer" class="card-link" title="Meetup AWS UG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.98 21.5c-1.4-.1-2.03-.6-2.57-1.06a3.33 3.33 0 0 1-.93-1.56c-.15-.52-.33-.87-.83-1.18a.74.74 0 0 1 .39-.13c.61.03 1.03.48 1.4 1.02.54.78 1.08 1.44 2.35 1.23.17-.63.5-1.17.94-1.57C4.67 18.7 2.75 17.23 2.75 13c0-1.37.5-2.63 1.31-3.64A5.27 5.27 0 0 1 4.24 5.1c1.19-.07 2.47.53 3.46 1.33A12.27 12.27 0 0 1 12 5.84c1.55 0 2.95.23 4.27.6.96-.79 2.23-1.39 3.4-1.33.25.68.48 1.69.21 3.26.82 1.01 1.37 2.27 1.37 3.63 0 4.24-1.93 5.7-4.96 6.24.57.49.95 1.43.95 2.4v3.33c4.89-1.94 8.35-6.67 8.35-12.2C25.59 5.12 19.48 0 12 0S-1.59 5.12-1.59 11.97c0 5.53 3.46 10.26 8.35 12.2v-2.05l.22-.62z"/></svg>
+                            <span>Meetup</span>
+                        </a>
+                        <a href="https://awsusergroup.it" target="_blank" rel="noopener noreferrer" class="card-link" title="AWS User Group Italia">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>awsusergroup.it</span>
+                        </a>
+                    </div>
+                    <a href="https://www.meetup.com/it-IT/aws-user-group-genova/" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Unisciti al AWS UG Genova
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- DotNet Liguria -->
+                <article class="group-card" id="dotnet-liguria">
+                    <div class="card-glow card-glow-dotnet"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-dotnet">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="20" font-weight="bold" fill="currentColor">.NET</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge dotnet-badge">.NET</span>
+                            <span class="tech-badge">C#</span>
+                            <span class="tech-badge">Blazor</span>
+                            <span class="tech-badge">ASP.NET</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">DotNet Liguria</h3>
+                    <p class="card-fullname">La community .NET della Liguria</p>
+                    <p class="card-description">
+                        Gruppo di appassionati della tecnologia .NET che diffonde la cultura informatica 
+                        nell'ambito della produzione software: desktop, web, mobile e IoT. 
+                        Eventi e workshop sempre gratuiti grazie a professionisti volontari.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Workshop su .NET, C# e Blazor</li>
+                            <li>Video tecnici sul canale YouTube</li>
+                            <li>News e blog sulla piattaforma</li>
+                            <li>Offerte di lavoro per la community</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://dotnetliguria.net" target="_blank" rel="noopener noreferrer" class="card-link" title="Sito Web DotNet Liguria">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>dotnetliguria.net</span>
+                        </a>
+                        <a href="https://www.youtube.com/@DotNetLiguria" target="_blank" rel="noopener noreferrer" class="card-link" title="YouTube DotNet Liguria">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.55A3.02 3.02 0 0 0 .5 6.19 31.57 31.57 0 0 0 0 12a31.57 31.57 0 0 0 .5 5.81 3.02 3.02 0 0 0 2.12 2.14c1.88.55 9.38.55 9.38.55s7.5 0 9.38-.55a3.02 3.02 0 0 0 2.12-2.14A31.57 31.57 0 0 0 24 12a31.57 31.57 0 0 0-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://twitter.com/dotnetliguria" target="_blank" rel="noopener noreferrer" class="card-link" title="Twitter/X DotNet Liguria">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2.25h3.51l-7.67 8.77 9.02 11.92h-7.06l-5.53-7.24-6.33 7.24H.67l8.2-9.38L.1 2.25h7.24l5 6.61 5.9-6.61zm-1.23 18.6h1.95L6.12 4.24H4.04l12.97 16.61z"/></svg>
+                            <span>X / Twitter</span>
+                        </a>
+                    </div>
+                    <a href="https://dotnetliguria.net" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Unisciti a DotNet Liguria
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- Linux User Group Genova -->
+                <article class="group-card" id="lug-genova">
+                    <div class="card-glow card-glow-linux"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-linux">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="26" font-weight="bold" fill="currentColor">🐧</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge linux-badge">Linux</span>
+                            <span class="tech-badge">Open Source</span>
+                            <span class="tech-badge">FOSS</span>
+                            <span class="tech-badge">Sysadmin</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">LUG Genova</h3>
+                    <p class="card-fullname">Linux User Group Genova — ILS Sezione Genova</p>
+                    <p class="card-description">
+                        Sezione locale di Genova della Italian Linux Society (ILS), rifondata a ottobre 2024 
+                        per promuovere Linux, il software libero e open source sul territorio genovese. 
+                        Un punto di ritrovo per appassionati, sysadmin e sviluppatori FOSS.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Incontri su Linux e software libero</li>
+                            <li>Supporto e install party</li>
+                            <li>Promozione cultura open source</li>
+                            <li>Networking e community meetups</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://genova.linux.it" target="_blank" rel="noopener noreferrer" class="card-link" title="Sito Web LUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>genova.linux.it</span>
+                        </a>
+                        <a href="https://t.me/GenovaLinuxUserGroup" target="_blank" rel="noopener noreferrer" class="card-link" title="Telegram LUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 0C5.37 0 0 5.37 0 12s5.37 12 11.99 12S24 18.63 24 12 18.61 0 11.99 0zm5.9 8.17s-.34 3.55-.48 4.7c-.06.48-.17.65-.28.67-.24.04-.42-.16-.65-.31-.37-.25-2.02-1.3-2.35-1.53-.09-.06-.2-.14-.07-.29.03-.04 1.95-1.84 2.24-2.15.04-.04.07-.11-.03-.16-.1-.05-.21-.01-.3.02-.13.05-2.18 1.38-3.08 1.95-.29.18-.56.27-.8.26-.26-.01-.77-.15-1.15-.27-.46-.15-.83-.23-.8-.49.02-.14.2-.28.54-.42 2.12-.92 3.53-1.53 4.24-1.83 2.02-.85 2.44-1 2.71-1 .06 0 .2.01.29.09.07.06.09.15.1.21-.01.06-.01.13-.02.19z"/></svg>
+                            <span>Telegram</span>
+                        </a>
+                        <a href="https://www.linux.it" target="_blank" rel="noopener noreferrer" class="card-link" title="Italian Linux Society">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>linux.it (ILS)</span>
+                        </a>
+                    </div>
+                    <a href="https://genova.linux.it" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Unisciti al LUG Genova
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+                <!-- XPUG Genova -->
+                <article class="group-card" id="xpug-genova">
+                    <div class="card-glow card-glow-xp"></div>
+                    <div class="card-header">
+                        <div class="card-icon card-icon-xp">
+                            <svg viewBox="0 0 48 48" width="32" height="32"><text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="18" font-weight="bold" fill="currentColor">XP</text></svg>
+                        </div>
+                        <div class="card-badges">
+                            <span class="tech-badge xp-badge">XP</span>
+                            <span class="tech-badge">Agile</span>
+                            <span class="tech-badge">TDD</span>
+                            <span class="tech-badge">Refactoring</span>
+                        </div>
+                    </div>
+                    <h3 class="card-title">XPUG Genova</h3>
+                    <p class="card-fullname">eXtreme Programming User Group Genova</p>
+                    <p class="card-description">
+                        Gruppo dedicato allo studio e alla pratica di eXtreme Programming (XP) e 
+                        dei processi Agile a Genova. Incontri su TDD, refactoring, Domain-Driven Design, 
+                        Lean e pratiche di sviluppo software di qualità.
+                    </p>
+                    <div class="card-activities">
+                        <h4>Attività</h4>
+                        <ul>
+                            <li>Code Kata e live coding</li>
+                            <li>Sessioni su TDD e refactoring</li>
+                            <li>Approfondimenti su Agile e Lean</li>
+                            <li>Talk su DDD e clean code</li>
+                        </ul>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://x.com/xpugge" target="_blank" rel="noopener noreferrer" class="card-link" title="X/Twitter XPUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.24 2.25h3.51l-7.67 8.77 9.02 11.92h-7.06l-5.53-7.24-6.33 7.24H.67l8.2-9.38L.1 2.25h7.24l5 6.61 5.9-6.61zm-1.23 18.6h1.95L6.12 4.24H4.04l12.97 16.61z"/></svg>
+                            <span>@xpugge</span>
+                        </a>
+                        <a href="https://xpugge.pbworks.com" target="_blank" rel="noopener noreferrer" class="card-link" title="Wiki XPUG Genova">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            <span>Wiki (archivio)</span>
+                        </a>
+                    </div>
+                    <a href="https://x.com/xpugge" target="_blank" rel="noopener noreferrer" class="card-cta">
+                        Scopri XPUG Genova
+                        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Perché Partecipare</span>
+                <h2 class="section-title">Cresci con la <span class="gradient-text">Community</span></h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Networking</h3>
+                    <p>Incontra professionisti, studenti e appassionati del settore IT. Amplia la tua rete di contatti nella community tech genovese.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Formazione</h3>
+                    <p>Partecipa a talk, workshop e corsi gratuiti su tecnologie all'avanguardia. Impara dai migliori professionisti del settore.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Open Source</h3>
+                    <p>Contribuisci a progetti open source, condividi il tuo codice e scopri nuove librerie e framework.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                    </div>
+                    <h3>Carriera</h3>
+                    <p>Scopri opportunità lavorative, trova mentori e costruisci la tua reputazione professionale nella community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="section join-section" id="join">
+        <div class="container">
+            <div class="join-card">
+                <div class="join-content">
+                    <span class="section-tag">Inizia Ora</span>
+                    <h2 class="section-title">Pronto a <span class="gradient-text">unirti</span>?</h2>
+                    <p>Tutti i gruppi sono gratuiti e aperti a chiunque: professionisti, studenti, appassionati. 
+                       Non serve esperienza pregressa, solo curiosità e voglia di imparare.</p>
+                    <div class="join-steps">
+                        <div class="step">
+                            <span class="step-number">01</span>
+                            <div>
+                                <h4>Scegli il tuo gruppo</h4>
+                                <p>Esplora i gruppi qui sopra e trova quello più adatto ai tuoi interessi tecnologici.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">02</span>
+                            <div>
+                                <h4>Segui i canali</h4>
+                                <p>Iscriviti ai canali Telegram, Meetup o LinkedIn per rimanere aggiornato sugli eventi.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">03</span>
+                            <div>
+                                <h4>Partecipa agli eventi</h4>
+                                <p>Presenta ti al prossimo meetup, talk o workshop. Il primo passo è sempre il più importante!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">&#9670;</span>
+                        <span>UG<span class="logo-accent">Genova</span></span>
+                    </a>
+                    <p>Il portale di riferimento per le community tech di Genova. 
+                       Un progetto open source per connettere sviluppatori e professionisti IT.</p>
+                </div>
+                <div class="footer-links-grid">
+                    <div class="footer-col">
+                        <h4>User Groups</h4>
+                        <ul>
+                            <li><a href="#jug-genova">JUG Genova</a></li>
+                            <li><a href="#gdg-genova">GDG Genova</a></li>
+                            <li><a href="#gendroid">Gendroid</a></li>
+                            <li><a href="#aws-genova">AWS UG Genova</a></li>
+                            <li><a href="#dotnet-liguria">DotNet Liguria</a></li>
+                            <li><a href="#lug-genova">LUG Genova</a></li>
+                            <li><a href="#xpug-genova">XPUG Genova</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Risorse</h4>
+                        <ul>
+                            <li><a href="#groups">Tutti i Gruppi</a></li>
+                            <li><a href="#about">Perché Partecipare</a></li>
+                            <li><a href="#join">Come Iniziare</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024–2026 UG Genova — Progetto open source. 
+                   Fatto con <span class="heart">♥</span> a Genova, la Superba.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const navToggle = document.getElementById('nav-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.mobile-nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.group-card, .feature-card, .join-card, .section-header').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Card tilt effect on mouse move
+        document.querySelectorAll('.group-card').forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = (y - centerY) / 30;
+                const rotateY = (centerX - x) / 30;
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
