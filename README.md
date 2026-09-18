@@ -37,15 +37,20 @@ Community ufficiale per sviluppatori, tech lead, CTO e designer legata all'ecosi
 
 ---
 
-### 🤖 Gendroid — Genova Android Developers
+### 🤖 Gendroid — La Community Android di Genova
 
-Community dedicata allo sviluppo Android a Genova. Un gruppo di appassionati dello sviluppo mobile che condividono conoscenze su Android, Kotlin, Jetpack Compose e le ultime novità del mondo mobile.
+Community dedicata allo sviluppo Android a Genova. Un gruppo di appassionati dello sviluppo mobile che condividono conoscenze sull'ecosistema Android, Kotlin, Compose Multiplatform e le ultime novità del mondo mobile.
 
 | Risorsa | Link |
 |---------|------|
+| 🌐 Sito Web | [gendroid.xabaras.it](https://gendroid.xabaras.it/) |
+| 💬 Telegram | [@gendroid_official](https://t.me/gendroid_official) |
 | 🐘 Mastodon | [@gendroid@androiddev.social](https://androiddev.social/@gendroid) |
+| 🐦 Facebook | [@gendroid](https://www.facebook.com/gendroid) |
+| 🐦 X / Twitter | [@g3ndr0id](https://x.com/g3ndr0id) |
+| 💼 LinkedIn | [Gendroid](https://www.linkedin.com/groups/12997324/) |
 
-**Attività:** Meetup sullo sviluppo Android · Workshop su Kotlin e Compose · Condivisione best practices mobile · Networking tra sviluppatori
+**Attività:** Meetup sullo sviluppo Android · Incontri su Android, Kotlin e sviluppo multiplatform · Condivisione best practices mobile · Networking tra sviluppatori
 
 ---
 
